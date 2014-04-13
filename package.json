@@ -1,6 +1,6 @@
 {
   "name": "kombiner",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Library to combine multiple files to a single endpoint, serving a single file.",
   "main": "index.js",
   
