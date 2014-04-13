@@ -15,6 +15,9 @@ k.serve('allinone.js', [
 ]);
 ```
 
+This call combines the two js files into a single endpoint that can be called from the client 
+at `/allinone.js`.
+
 
 BENEFITS
 --------
