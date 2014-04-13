@@ -1,0 +1,34 @@
+{
+  "name": "Kombiner",
+  "version": "1.0.0",
+  "description": "Library to combine multiple files to a single endpoint, serving a single file.",
+  "main": "index.js",
+  
+  "scripts": {
+    "test": ""
+  },
+  
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/folletto/kombiner.git"
+  },
+  
+  "keywords": [
+    "css",
+    "js",
+    "combine",
+    "chain",
+    "aggregate",
+    "serve",
+    "watch"
+  ],
+  
+  "author": "Davide 'Folletto' Casali",
+  "license": "MIT",
+  
+  "bugs": {
+    "url": "https://github.com/folletto/kombiner/issues"
+  },
+  
+  "homepage": "https://github.com/folletto/kombiner"
+}
