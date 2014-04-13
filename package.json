@@ -1,11 +1,16 @@
 {
-  "name": "Kombiner",
+  "name": "kombiner",
   "version": "1.0.0",
   "description": "Library to combine multiple files to a single endpoint, serving a single file.",
   "main": "index.js",
   
   "scripts": {
-    "test": ""
+    "test": "./node_modules/.bin/mocha --reporter spec"
+  },
+  
+  "devDependencies": {
+    "mocha": "*",
+    "should": "*"
   },
   
   "repository": {
@@ -14,13 +19,7 @@
   },
   
   "keywords": [
-    "css",
-    "js",
-    "combine",
-    "chain",
-    "aggregate",
-    "serve",
-    "watch"
+    "css", "js", "combine", "chain", "aggregate", "serve", "watch"
   ],
   
   "author": "Davide 'Folletto' Casali",
