@@ -36,6 +36,7 @@ describe('Kombiner', function() {
        
       fs.writeFileSync(FILE_WATCHED_1, "Test", 'utf8');
       k.watch(FILE_WATCHED_1, function(file) {
+        fs.unwatchFile(FILE_WATCHED_1);
         fs.unlink(FILE_WATCHED_1);
         done();
       });
@@ -51,6 +52,8 @@ describe('Kombiner', function() {
       k.watchAll([FILE_WATCHED_2, FILE_WATCHED_3], function() {
         counter--;
         if (counter == 0) {
+          fs.unwatchFile(FILE_WATCHED_2);
+          fs.unwatchFile(FILE_WATCHED_3);
           fs.unlink(FILE_WATCHED_2);
           fs.unlink(FILE_WATCHED_3);
           done();
