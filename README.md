@@ -32,6 +32,7 @@ LICENSE
   _Copyright (C) 2013-2014, Davide Casali_  
   _Licensed under **MIT License**_
 
-> _No sensible decision can be made any longer without taking into account   
-  not only the world as it is, but the world as it will be_  
-  – Isaac Asimov
+
+> _Alone we can do so little;   
+  together we can do so much._  
+  – Helen Keller
